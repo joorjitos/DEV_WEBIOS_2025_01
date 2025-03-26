@@ -1,3 +1,4 @@
-hello world
-
-i'm a brazilian programer!
+-ter um emprego estável
+-ter uma casa confortável
+-ter um carro bom
+-manter uma rotina saudável
