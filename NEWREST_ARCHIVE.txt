@@ -1,3 +1,0 @@
-hello world!
-
-just another .txt archive for some tests i'm running over
