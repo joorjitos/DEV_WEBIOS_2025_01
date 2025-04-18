@@ -4,11 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+
+    </style>
 </head>
 <body>
-    
+    <h1>Forms</h1>
     <form action="">
+        <label for="">Nome de usuário </label>
+        <input type="text" placeholder="Insira o nome de usuário">
+
+        <br><br>
+
+        <h3>Selecione a cidade</h3>
+        
+        <input type="radio" name="radio">
+        <label for="">São Paulo</label>
+        <br>
+        <input type="radio" name="radio">
+        <label for="">Grande São Paulo</label>
+        <br>
+        <input type="radio" name="radio">
+        <label for="">Campinas</label>
+
+        <br><br>
+
+        <h3>Selecione o estilo musical</h3>
+
+        <input type="checkbox">
+        <label for="">Funk</label>
+        <br>
+        <input type="checkbox">
+        <label for="">Rock</label>
+        <br>
+        <input type="checkbox">
+        <label for="">Pagode</label>
+        <br>
+        <input type="checkbox">
+        <label for="">Sertanejo</label>
+        <br>
+
+        <br><br>
+
+        <h3>Selecione a distância</h3>
+
+        0 KM <input type="range"> 100 KM
+
+        <br><br>
+
+        <h3>Selecione uma cor</h3>
+
+        <select name="" id="">
+            <option value="">Selecione</option>
+            <option value="">Amarelo</option>
+            <option value="">Branco</option>
+            <option value="">Vermelho</option>
+        </select>
+
+        <br><br>
+
+        <h3>Selecione a região</h3>
+
+        <input type="text" list="busca">
+        <datalist id="busca">
+            <option value="Campinas"> </option>
+            <option value="Santo André"> </option>
+            <option value="São Paulo"> </option>
+        </datalist>
+
+        <br><br><br><br>
+
         <input type="button" value="Enviar">
+
     </form>
 
 </body>
