@@ -1,33 +1,136 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Radio Personalizado</title>
- 
+  <title>HTML06-ExercicioCasa</title>
+
+  <style>
+    body {
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+      color: #222225;
+    }
+
+    form {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    label {
+      padding: 20px;
+      color: #222225;
+    }
+  </style>
 </head>
+
 <body>
 
-  <h2>Selecione uma opção:</h2>
-  <div class="radio-group">
-    <label>
-      <input type="radio" name="opcao" value="1">
-      <span class="checkmark"></span>
-      Opção 1
-    </label>
+  <h1>Deixe sua opinião sobre a empresa de forma anônima</h1>
+  <form method="post" id="fcontato" action="mailto:jorge.assalin@gmail.com">
 
-    <label>
-      <input type="radio" name="opcao" value="2">
-      <span class="checkmark"></span>
-      Opção 2
-    </label>
+    <fieldset>
+      <legend>Sobre você e sua posição</legend>
 
-    <label>
-      <input type="radio" name="opcao" value="3">
-      <span class="checkmark"></span>
-      Opção 3
-    </label>
-  </div>
+      <label for="">Empresa:</label>
+      <input type="text" placeholder="Insira o nome da empresa" size="40">
+      <br><br>
 
+      <label for="">Data em que entrou na empresa:</label>
+      <input type="date">
+      <br><br>
+
+      <label for="">Quantidade de funcionários em seu setor:</label>
+      <input type="number" placeholder="Ex: 1.000">
+      <br><br>
+
+      <label for="">Salário que recebe (R$):</label>
+      <input type="number" step="0.01" min="0" placeholder="Ex: 2500.00">
+      <br><br>
+
+      <label for="select">Ainda está na empresa?</label>
+      <select name="select" id="select">
+
+        <option value="">Selecione</option>
+        <option value="">Sim</option>
+        <option value="">Não</option>
+      </select>
+
+      <h3>Você é (ou era) PJ ou CLT?</h3>
+
+      <input type="radio" name="radio">
+      <label for="">PJ</label>
+      <br>
+      <input type="radio" name="radio">
+      <label for="">CLT</label>
+
+    </fieldset>
+    <fieldset>
+      <legend>Benefícios</legend>
+
+      <h3>Quais benefícios você recebe (Recebia):</h3>
+
+      <input type="checkbox">
+      <label for="">Vale refeição</label>
+      <br>
+      <input type="checkbox">
+      <label for="">Vale Alimentação</label>
+      <br>
+      <input type="checkbox">
+      <label for="">Vale transporte</label>
+      <br>
+      <input type="checkbox">
+      <label for="">Academias</label>
+      <br>
+      <input type="checkbox">
+      <label for="">PLR</label>
+      <br>
+      <input type="checkbox">
+      <label for="">Plano de saúde</label>
+      <br>
+      <input type="checkbox">
+      <label for="">Plano odontológico</label>
+      <br><input type="checkbox">
+      <label for="">Cesta básica</label>
+      <br>
+      <input type="checkbox">
+      <label for="">Day off</label>
+      <br>
+      <input type="checkbox">
+      <label for="">Bolsa de estudos</label>
+      <br>
+      <input type="checkbox">
+      <label for="">Licença a maternidade ou paternidade</label>
+      <br>
+      <input type="checkbox">
+      <label for="">Pet friendly</label>
+      <br>
+      <input type="checkbox">
+      <label for="">Empréstimo consignado</label>
+
+    </fieldset>
+    <fieldset>
+      <legend>Sua opinião</legend>
+
+      <h3>Descreva os prós da empresa</h3>
+      <textarea placeholder="Escreva sua opinião aqui" cols="73" rows="5">
+      </textarea>
+
+      <h3>Descreva os contras da empresa</h3>
+      <textarea placeholder="Escreva sua opinião aqui" cols="73" rows="5">
+        </textarea>
+
+    </fieldset>
+
+    <h3>Enviar Formulário</h3>
+    <input type="button" value="Enviar">
 </body>
+
 </html>

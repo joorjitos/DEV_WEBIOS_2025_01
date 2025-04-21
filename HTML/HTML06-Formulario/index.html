@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,75 +10,96 @@
 
     </style>
 </head>
+
 <body>
     <h1>Forms</h1>
-    <form action="">
-        <label for="">Nome de usuário </label>
-        <input type="text" placeholder="Insira o nome de usuário">
+    <form method="post" id="fcontato" action="mailto:jorge.assalin@gmail.com">
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <label for="">Nome de usuário </label>
+            <input type="text" placeholder="Insira o nome de usuário">
+
+            <br><br>
+
+            <h3>Selecione a cidade</h3>
+
+            <input type="radio" name="radio">
+            <label for="">São Paulo</label>
+            <br>
+            <input type="radio" name="radio">
+            <label for="">Grande São Paulo</label>
+            <br>
+            <input type="radio" name="radio">
+            <label for="">Campinas</label>
+
+            <br><br>
+
+            <h3>Selecione o estilo musical</h3>
+
+            <input type="checkbox">
+            <label for="">Funk</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Rock</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Pagode</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Sertanejo</label>
+
+        </fieldset>
 
         <br><br>
+        <fieldset>
+            <legend>Localização</legend>
 
-        <h3>Selecione a cidade</h3>
-        
-        <input type="radio" name="radio">
-        <label for="">São Paulo</label>
-        <br>
-        <input type="radio" name="radio">
-        <label for="">Grande São Paulo</label>
-        <br>
-        <input type="radio" name="radio">
-        <label for="">Campinas</label>
+            <h3>Selecione a distância</h3>
 
-        <br><br>
+            0 KM <input type="range"> 100 KM
 
-        <h3>Selecione o estilo musical</h3>
+            <br><br>
 
-        <input type="checkbox">
-        <label for="">Funk</label>
-        <br>
-        <input type="checkbox">
-        <label for="">Rock</label>
-        <br>
-        <input type="checkbox">
-        <label for="">Pagode</label>
-        <br>
-        <input type="checkbox">
-        <label for="">Sertanejo</label>
-        <br>
+            <h3>Selecione uma cor</h3>
 
-        <br><br>
+            <select name="" id="">
+                <option value="">Selecione</option>
+                <option value="">Amarelo</option>
+                <option value="">Branco</option>
+                <option value="">Vermelho</option>
+            </select>
 
-        <h3>Selecione a distância</h3>
+            <br><br>
 
-        0 KM <input type="range"> 100 KM
+            <h3>Selecione a região</h3>
 
-        <br><br>
+            <input type="text" list="busca">
+            <datalist id="busca">
+                <option value="Campinas"> </option>
+                <option value="Santo André"> </option>
+                <option value="São Paulo"> </option>
+            </datalist>
 
-        <h3>Selecione uma cor</h3>
+        </fieldset>
 
-        <select name="" id="">
-            <option value="">Selecione</option>
-            <option value="">Amarelo</option>
-            <option value="">Branco</option>
-            <option value="">Vermelho</option>
-        </select>
+            <br><br>
 
-        <br><br>
+            <h3>Descreva por que quer se candidatar</h3>
+            <textarea name="" id="" cols="100" rows="10">
+        </textarea>
 
-        <h3>Selecione a região</h3>
+            <br><br>
 
-        <input type="text" list="busca">
-        <datalist id="busca">
-            <option value="Campinas"> </option>
-            <option value="Santo André"> </option>
-            <option value="São Paulo"> </option>
-        </datalist>
 
-        <br><br><br><br>
 
-        <input type="button" value="Enviar">
+            <br><br><br><br>
+
+            <input type="button" value="Enviar">
 
     </form>
 
 </body>
+
 </html>
