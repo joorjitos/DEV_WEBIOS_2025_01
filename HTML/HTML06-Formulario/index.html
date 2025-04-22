@@ -7,19 +7,52 @@
     <title>Document</title>
 
     <style>
+        body {
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+        .fundo{
+            background-color: rgb(189, 207, 216);
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #222225;
+        }
 
+        form {
+            background-color: rgb(233, 241, 245);
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        label {
+            padding: 20px;
+            color: #222225;
+        }
+
+        fieldset {
+            background-color: rgb(233, 241, 245);
+        }
     </style>
-</head>
 
+</head>
 <body>
-    <h1>Forms</h1>
-    <form method="post" id="fcontato" action="mailto:jorge.assalin@gmail.com">
+    <fieldset class="fundo">
+        
+        <h1>Forms</h1>
+        <form action="./BoasVindas.html" target="_blank">
 
         <fieldset>
             <legend>Dados Pessoais</legend>
 
-            <label for="">Nome de usuário </label>
-            <input type="text" placeholder="Insira o nome de usuário">
+            <label for="">Nome de usuário:</label>
+            <input type="text" placeholder="Insira o nome de usuário" size="75px" required>
 
             <br><br>
 
@@ -62,8 +95,7 @@
 
             <br><br>
 
-            <h3>Selecione uma cor</h3>
-
+            <label for="">Selecione sua cor</label>
             <select name="" id="">
                 <option value="">Selecione</option>
                 <option value="">Amarelo</option>
@@ -73,9 +105,8 @@
 
             <br><br>
 
-            <h3>Selecione a região</h3>
-
-            <input type="text" list="busca">
+            <label for="">Selecione sua região</label>
+            <input type="text" list="busca" placeholder="Selecione">
             <datalist id="busca">
                 <option value="Campinas"> </option>
                 <option value="Santo André"> </option>
@@ -84,19 +115,22 @@
 
         </fieldset>
 
-            <br><br>
+        <br><br>
+
+        <fieldset>
+            <legend>Espaço de texto</legend>
 
             <h3>Descreva por que quer se candidatar</h3>
-            <textarea name="" id="" cols="100" rows="10">
+
+            <textarea name="" id="" cols="100" rows="10" placeholder="Escreva aqui">
         </textarea>
+        </fieldset>
 
-            <br><br>
+        <br><br>
 
-
-
-            <br><br><br><br>
-
-            <input type="button" value="Enviar">
+        <p>Enviar documento</p>
+        <input type="submit" value="Enviar">
+    </fieldset>
 
     </form>
 
