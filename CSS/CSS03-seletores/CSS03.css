@@ -1,14 +1,14 @@
 body{
     text-align: center;
-    background-color: #bef202;
+    background-color: #84bfc3;
 }
 
 #titulo{
     font-size: 100px;
     margin: 50px;
     padding: 50px;
-    color: #1b676b;
-    text-shadow: 8px 8px 4px #98c200;
+    color: #d96153;
+    text-shadow: 8px 8px 4px #6d9b9e;
     font-family: "Lilita One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -17,7 +17,7 @@ body{
 #corpo{
     margin: 50px;
     padding: 50px;
-    background-color: #eafde6;
+    background-color: #fff5d6;
     font-size: 30px;
     font-family: "Sansation", sans-serif;
     font-weight: 400;
@@ -26,7 +26,7 @@ body{
 
 h2{
     text-align: center;
-    color: #1b676b;
+    color: #d96153;
     text-shadow: 2px 2px 2px #aab4a8;
 }
 
@@ -34,12 +34,16 @@ h3{
     text-align: left;
     margin-left: 80px;
     margin-right: 80px;
-    color: #1b676b;
+    color: #d96153;
 }
 
 p{
-    text-align: left;
+    text-align: justify;
     margin-left: 80px;
     margin-right: 80px;
-    color: #519548;
+    color: #000511;
+}
+
+*{
+    margin: 0px;
 }
