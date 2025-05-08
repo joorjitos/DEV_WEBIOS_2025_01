@@ -1,14 +1,91 @@
-body{
-     background-color: #83a300;
+body {
+    background-image: url(./background.jpg);
+    background-size: 50%;
+    background-size: 50%;
+    background-attachment: fixed;
+    background-position: center;
 }
 
-#texto{
+h1 {
+    text-align: center;
+    padding: 100px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+    text-shadow: 10px 10px 3px #000000;
+    color: #e48a1d;
+}
+
+h2{
+    text-align: center;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    text-shadow: 6px 6px 2px #000000;
+    color: #e48a1d;
+}
+
+h3{
+    text-align: center;
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: #3B4CCA;
+}
+
+#bloco1 {
+    background-color: #ffed81;
+    margin: 50px;
+    padding: 50px;
+    border-style: solid;
+    border-color: #f2bc4f;
+    border width: 15px;
+}
+
+#bloco2 {
+    background-color: #ffed81;
+    margin: 50px;
+    padding: 50px;
+    border-style: solid;
+    border-color: #f2bc4f;
+    border width: 15px;
+}
+
+#texto {
     color: #d6d6d6;
     border-width: 4px;
-    border-color: #333333;
-    background-color: #333333;
+    border-color: #eba336;
+    background-color: #f2bc4f;
     border-style: inset;
-    padding: 4px;
+    padding: 5px;
     margin-left: 80px;
     margin-right: 80px;
+    color: #333333;
+    text-align: center;
+    font-family: "Sansation", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#imagem1 {
+    width: 500px;
+    height: 500px;
+    margin-left: 900px;
+    margin-right: 900px;
+}
+
+#imagem2{
+    width: 300px;
+    height: 300px;
+    margin-left: 1000px;
+    margin-right: 1000px;
+}
+ 
+figcaption{
+    margin-left: 1080px;
+    margin-right: 1080px;
 }
