@@ -1,7 +1,11 @@
 body {
     background-image: url(Fundo.jfif);
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: 200%;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -12,6 +16,8 @@ h1 {
     font-weight: 400;
     font-style: normal;
     font-size: 150px;
+    text-shadow: 7px 7px 3px rgb(138, 172, 162);
+    color: rgb(226, 238, 234);
 }
 
 h2 {
@@ -20,37 +26,77 @@ h2 {
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
+    text-shadow: 5px 5px 2px rgb(171, 197, 189);
 }
 
 h3 {
     text-align: left;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
-    font-variation-settings: "wdth" 100;
     font-size: 35px;
 }
+
+.descric{
+    margin: 70px 150px;
+    padding: 10px 10px 10px 10px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: rgb(226, 238, 234);
+}
+
 
 p {
     text-align: justify;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
-    font-variation-settings: "wdth" 100;
     font-size: 25px;
 }
 
 .content {
     background-color: rgb(202, 235, 224);
-    padding: 60px;
-    margin: 60px;
+    padding: 50px;
+    margin: 90px;   
     border-radius: 50px;
+    box-shadow: 10px 10px 20px rgb(138, 172, 162);
 }
 
 .text{
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
+}
+
+.pokebola{
+    width: 100px;
+    height: 100px;
+    margin: 20px 45%;
+    max-width: 100%;
+    max-height: 100vh;
+    size: 50em;
+}
+
+.pika{
+    margin-left: 43%;
+    margin-right: 43%;
+    max-width: 100%;
+    max-height: 100vh;
+    size: 50em;
+}
+
+.rhino{
+    width: 250px;
+    height: 280px;
+    margin-left: 43%;
+    margin-right: 43%;
+    max-width: 100%;
+    max-height: 100vh;
+}
+figcaption{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
 }
