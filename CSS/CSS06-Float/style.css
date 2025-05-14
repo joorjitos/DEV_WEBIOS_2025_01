@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+}
+
+.Divs {
+    border: 3px solid black;
+    clear: both;
+    height: 450px;
+    padding: 60px;
+    margin: 60px;
+}
+
+.Divs2{
+    border: 3px solid black;
+    clear: both;
+    height: 290px;
+    padding: 60px;
+    margin: 60px;
+}
+
+#sorraia {
+    width: 300px;
+    height: 450px;
+    float: left;
+}
+
+#narutao{
+    width: 330px;
+    float: right;
+}
+
+#rdr2{
+    width: 400px;
+}
+
+#gow2018{
+    width: 430px;
+}
+
+#vs{
+    width: 250px;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS06 - Float</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Lilita+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Título Principal</h1>
+
+    <main>
+        <h2>Subtítulo Principal</h2>
+
+        <section id="sec1">
+            <h3>Texto 1</h3>
+            <img id="kratos" src="./IMG/KRATOS.webp" alt="Cleitão da Massa">
+
+            <br>
+            <p id="txt1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus rerum est nam maxime autem laudantium voluptates, quam culpa iste assumenda magni minus ducimus blanditiis fugit id, molestias hic itaque? Perspiciatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit blanditiis magni, a numquam pariatur fugiat tempora, officiis adipisci ipsum magnam eaque at possimus architecto, libero esse facere quaerat accusantium quasi.</p>
+        </section>
+
+        <section id="sec2">
+            <h3>Texto 2</h3>
+            <p id="txt2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, eveniet. Inventore, voluptatibus
+                beatae! Amet asperiores, atque harum quod omnis consequatur eligendi quaerat nam pariatur! Expedita
+                consequuntur illum omnis aliquam ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+                exercitationem deleniti qui asperiores, earum voluptate natus tenetur doloremque? Nihil atque quas cum
+                temporibus blanditiis minima facere totam rerum odio nulla! Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Amet et, id ab deleniti voluptatum molestias ut numquam pariatur labore est molestiae
+                mollitia magnam sit distinctio accusamus dolores consequuntur architecto nostrum?</p>
+        </section>
+    </main>
+</body>
+
+</html>
+
+CSS
+
+body {
+    background-color: #88abc2;
+}
+
+main {
+    background-color: #d0e0eb;
+    padding: 70px;
+    margin: 70px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: #ebf7f8;
+}
+
+h2 {
+    text-align: center;
+    color: #49708a;
+    padding: 30px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+}
+
+h3 {
+    text-align: left;
+    color: #49708a;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#kratos {
+    height: 300px;
+    width: 300px;
+    float: left;
+    padding: 20px;
+}
+
+#sec2{
+clear: both;
+}
