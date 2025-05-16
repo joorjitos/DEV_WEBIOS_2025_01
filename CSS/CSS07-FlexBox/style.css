@@ -1,0 +1,12 @@
+#container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.itens{
+    text-align: center;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
