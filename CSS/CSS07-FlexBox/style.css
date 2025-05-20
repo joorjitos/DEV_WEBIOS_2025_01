@@ -1,12 +1,62 @@
-#container{
-    display:flex;
-    flex-direction:row;
+body {
+    background-color: #d1d0d7;
+}
+
+main {
+    background-color: #f6e7f7;
+    border: 5px solid #ff824a;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #ff824a;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+}
+
+h2 {
+    text-align: center;
+    color: #fc284f;
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 40px;
+    font-size: 40px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    height: 200px;
+    align-items: center;
 }
 
 .itens{
     text-align: center;
-    border: 1px solid black;
+    border: 5px solid #fc284f;
     width: 50px;
-    height: 50px;
+    height: 45px;
+    padding: 20px;
+    background-color: #fea887;
+    border-radius: 20px;
+    color: #fc284f;
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+#itens:hover{
+    transform: scale(1.1, 1.1);
+}
+#itens:hover > #itens:not(:hover){
+    filter: blur(5px);
+    transform: scale(0.9, 0.9);
 }
