@@ -1,9 +1,11 @@
 body {
-    background-color: rgb(168, 168, 168);
+    background-color: #88abc2;
 }
 
-div {
-    background-color: rgb(214, 214, 214);
+main {
+    background-color: #d0e0eb;
+    padding: 70px;
+    margin: 70px;
 }
 
 h1 {
@@ -12,134 +14,45 @@ h1 {
     font-weight: 400;
     font-style: normal;
     font-size: 100px;
+    color: #ebf7f8;
 }
 
-p {
-    font-family: "Sansation", sans-serif;
+h2 {
+    text-align: center;
+    color: #49708a;
+    padding: 30px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+}
+
+h3 {
+    text-align: left;
+    color: #49708a;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 25px;
+    font-size: 20px;
 }
 
-.Divs {
-    border: 3px solid black;
-    clear: both;
-    height: 450px;
-    padding: 60px;
-    margin: 60px;
-    border-radius: 50px;
-}
-
-.Divs2 {
-    border: 3px solid black;
-    clear: both;
-    height: 230px;
-    padding: 60px;
-    margin: 60px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 50px;
-}
-
-#sorraia {
+#kratos {
+    height: 300px;
     width: 300px;
-    height: 450px;
     float: left;
-    transition: 1s, 1s;
+    padding: 20px;
 }
 
-#sorraia:hover {
-    width: 320px;
-    height: 470px;
-}
-
-#narutao {
-    width: 330px;
-    float: right;
-    transition: 1s;
-}
-
-#pnaruto {
-    font-size: 25px;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 30%;
-    color: rgb(83, 83, 83);
-    margin-top: 3%;
-}
-
-#pnaruto::first-letter {
-    font-size: 60px;
-    color: rgb(240, 144, 0);
-    font-family: "Sansation", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    line-height: 20px;
-}
-
-#narutao:hover {
-    width: 350px;
-    opacity: 0;
-}
-
-#rdr2 {
-    width: 400px;
-    float: left;
-    margin-left: 10%;
-    transition: 1s;
-}
-
-#rdr2:hover {
-    width: 420px;
-}
-
-#gow2018 {
-    width: 430px;
-    float: right;
-    margin-right: 10%;
-    transition: 1s;
-}
-
-#gow2018:hover {
-    width: 450px;
-}
-
-#vs {
-    width: 250px;
-    margin-left: 7%;
-}
-
-#psorraia {
-    color: rgb(168, 28, 82);
-    text-align: center;
-    margin-left: 30%;
-    margin-right: 10%;
-    margin-bottom: 5%;
-}
-
-#psorraia:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(214, 214, 214);
-    cursor:crosshair;
-}
-
-table {
-    margin-left: 25%;
-    width: 70%;
-    font-size: 22px;
-    border: 2px solid;
-    border-collapse: collapse;
-}
-
-.dados {
-    color: rgb(168, 28, 82);
-}
-
-td{
-border: solid 2px;
-text-align: center;
-}
-
-.dados:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(214, 214, 214);
+#sec2{
+clear: both;
 }
