@@ -1,0 +1,77 @@
+body {
+    background-color: #f3c6b9;
+}
+
+h1 {
+    color: #f7a29e;
+    font-size: 8rem;
+    text-align: center;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    color: #f7a29e;
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 4%;
+}
+
+main {
+    background-color: #faeddf;
+    border: 5px solid #3b3f49;
+    border-radius: 50px;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 3%;
+
+}
+
+#container {
+    text-align: center;
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 70px);
+
+    column-gap: 3rem;
+    row-gap: 3rem;
+}
+
+.item{
+    border: 3px solid #3b3f49;
+
+    font-family: "Sansation", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+#Item04{
+    width: 30rem;
+grid-column: 1/4;
+align-self: start;
+justify-self: center;
+}
+
+#Item05{
+    width: 15rem;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    align-self: end;
+    justify-self: center;
+}
+
+#Item06{
+    width: 30rem;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    align-self: center;
+    justify-self: center;
+}
