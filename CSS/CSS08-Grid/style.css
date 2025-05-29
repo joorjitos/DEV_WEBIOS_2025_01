@@ -4,7 +4,7 @@ body {
 
 h1 {
     color: #1693a5;
-    font-size: 5rem;
+    font-size: 8rem;
     text-align: center;
     font-family: "Lilita One", sans-serif;
     font-weight: 400;
@@ -13,20 +13,22 @@ h1 {
 
 h2 {
     color: #1693a5;
-    font-size: 50px;
+    font-size: 3rem;
     text-align: center;
     font-family: "Lilita One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin: 4%;
 }
 
 main {
     background-color: #f0f0d8;
     border: 5px solid #1693a5;
     border-radius: 50px;
+
     margin-left: 10%;
     margin-right: 10%;
-    height: 500px;
+    height: 600px;
 }
 
 .container {
@@ -35,8 +37,10 @@ main {
     grid-template-rows: auto auto;
     column-gap: 1%;
     row-gap: 5%;
+
     justify-items: center;
     justify-content: space-around;
+
     align-items: center;
     align-content: center;
 }
@@ -44,17 +48,18 @@ main {
 .itens {
     background-color: #f0f0d8;
     color: #000000;
-    font-size: 3rem;
     text-align: center;
-    align-items: center;
-    justify-content: center;
+
+    font-size: 3rem;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+
     width: 80%;
     border: 3px solid #000000;
     border-radius: 25px;
+
     transition: 1s;
     opacity: 1;
     cursor: pointer;
@@ -70,7 +75,10 @@ main {
     z-index: 1;
 }
 
+#item3{
+    grid-column: 1/3;
+}
 
-/* #cont :not(:hover){
-    opacity: 0.3;
-} */
+#item6{
+    grid-column: 1/3;
+}
