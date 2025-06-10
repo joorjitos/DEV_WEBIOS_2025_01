@@ -43,11 +43,41 @@ console.log(4 <= 3);
 console.log(15 != 15.0);
 console.log("ana" == "Ana");
 
+console.clear()
+
 //operador lógico
 let temcamisa = false
 let temcracha = true
+var frase = "Você entra no IOS? usando &&"
+var frase1 = "Você entra no IOS? usando ||"
+var frase2 = "Você entra no IOS? usando !"
+
+console.log("Tem camiseta?", temcamisa);
+console.log("Tem Crachá?", temcracha);
+
+console.log(frase);
 console.log(temcamisa== true && temcracha == true);
-
+console.log(frase1);
 console.log(temcamisa == true || temcracha == true);
+console.log(frase2);
+console.log (!(temcamisa == true));
 
-console.log (!(temcamisa == false));
+//operador de atribuição
+var x = 3
+var y = 2
+x += y 
+
+console.log("Qual o valor de X?");
+console.log(x)
+
+y *= x
+x /= y
+
+console.log("Qual o valor de Y?");
+console.log(y);
+
+console.log("Qual o valor de X agora?");
+console.log(x);
+
+console.warn("Você não deveria estar vendo isso")
+console.error("Você realmente não deveria estar vendo isso")
